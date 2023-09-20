@@ -1,3 +1,5 @@
+import avatar from "../assets/avatar.png"
+
 function Inicio(){
     return(
         <section className="container mt-32 mx-auto h-max max-width section md:flex justify-center items-center md:mb-32 " id="inicio">
@@ -10,7 +12,7 @@ function Inicio(){
                 </h2>
             </div>
             <div className="mt-5 md:mt-0">
-                <img className="w-3/4 md:ml-auto rounded-full shadow-lg shadow-slate-400 dark:shadow-black" src="src/assets/avatar.png" alt="avatar de inicio" />
+                <img className="w-3/4 md:ml-auto rounded-full shadow-lg shadow-slate-400 dark:shadow-black" src={avatar} alt="avatar de inicio" />
             </div>
         </section>
     )
