@@ -1,7 +1,7 @@
 function Inicio(){
     return(
         <section className="container mt-32 mx-auto h-max max-width section md:flex justify-center items-center md:mb-32 " id="inicio">
-            <div className="text-neutral-900 text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+            <div className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
                 <h1>
                     Hola, 👋 <br></br> Me llamo Francisco.
                 </h1>
