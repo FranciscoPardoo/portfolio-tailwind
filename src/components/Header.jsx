@@ -18,7 +18,7 @@ return (
         </button>
     </div>
     <nav className={`md:flex ${menuOpen ? 'block' : 'hidden'} md:mx-auto xl:mx-auto text-center`}>
-        <ul className='text-neutral-900 text-lg font-medium flex w-full space-x-6 lg:flex-1 dark:text-light-heading'>
+        <ul className='text-neutral-900 text-lg font-medium flex w-full space-x-6 lg:flex-1 xs:space-x-1 dark:text-light-heading'>
         <li><a className='hover:text-cyan-800' href="#inicio" onClick={toggleMenu}>Inicio</a></li>
         <li><a className='hover:text-cyan-800' href='#proyectos' onClick={toggleMenu}>Proyectos</a></li>
         <li><a className='hover:text-cyan-800' href="#habilidades" onClick={toggleMenu}>Habilidades</a></li>
