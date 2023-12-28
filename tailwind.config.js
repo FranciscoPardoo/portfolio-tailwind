@@ -5,6 +5,13 @@ export default {
   "./src/**/*.{js,ts,jsx,tsx}",],
   darkMode: "class",
   theme: {
+    screens: {
+      xs: '350px',
+      sm: '640px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px',
+    },
     extend: {
       colors: {
         "light-content": "#A7A7A7",

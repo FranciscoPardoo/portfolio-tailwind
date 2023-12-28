@@ -12,7 +12,7 @@ function Inicio(){
         </h2>
     </div>
     <div className="mt-5 md:mt-0">
-    <img className="w-full xs:w-1/4 sm:w-3/4 md:w-3/4 lg:w-2/3 xl:w-2/3 mx-auto md:ml-auto md:mr-0 rounded-full shadow-lg shadow-slate-400 dark:shadow-black" src={avatar} alt="avatar de inicio" />
+    <img className="w-full xs:w-2/4 sm:w-2/4 md:w-2/3 lg:w-3/4 xl:w-3/4 mx-auto md:ml-auto md:mr-0 rounded-full shadow-lg shadow-slate-400 dark:shadow-black" src={avatar} alt="avatar de inicio" />
     </div>
 </section>
 
