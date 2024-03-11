@@ -6,8 +6,8 @@ export default {
   darkMode: "class",
   theme: {
     screens: {
-      xs: '350px',
-      sm: '640px',
+      xs: '300px',
+      sm: '540px',
       md: '768px',
       lg: '976px',
       xl: '1440px',
@@ -23,6 +23,7 @@ export default {
         "green-text": "#018C0F",
     },
   },
-  plugins: [],
+  plugins: [
+  ],
 }
 }

@@ -6,8 +6,8 @@ function Habilidades(){
     
     return(
         <section className="container mx-auto max-width pt-20 md:pb-20 pb-10" id="habilidades">
-            <h2 className="text-neutral-900 text-center text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">Habilidades</h2>
-            <div className="flex justify-center content-center flex-wrap m-18">
+            <h2 className="text-neutral-900 text-center text-2xl  dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">Habilidades</h2>
+            <div className="grid justify-center justify-items-center m-18 md:grid-cols-5 sm:grid-cols-3 xs:grid-cols-2">
                 <SkillsCards habilidad="HTML" icono={<FontAwesomeIcon icon={faHtml5} fade size="5x" style={{color: "#ff8800",}} />} />
                 <SkillsCards habilidad="CSS" icono={<FontAwesomeIcon icon={faCss3Alt} fade size="5x" style={{color: "#0084ff",}} />}/>
                 <SkillsCards habilidad="Bootstrap" icono={<FontAwesomeIcon icon={faBootstrap} fade size="5x" style={{color: "#8c00ff",}} />} />
