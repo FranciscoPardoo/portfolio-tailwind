@@ -1,15 +1,15 @@
-import badBunnyImg from "./assets/cap-bad.png";
 import freresImg from "./assets/cap-freres.png";
 import mappleImg from "./assets/cap-mapple.png";
+import arflixImg from './assets/cap-arflix.png';
 
 export const projectDetails = [
     {
-        titulo: `Bad Bunny`,
-        imagen: badBunnyImg,
-        descripcion: `Proyecto final para Desarrollo Web de Coderhouse.`,
-        tecnologias: `HTML, CSS, Bootstrap, SASS`,
-        previewLink: `https://badbunny-xi.vercel.app/index.html` ,
-        githubLink: `https://github.com/FranciscoPardoo/pagina_badbunny`,
+        titulo: `ARflix`,
+        imagen: arflixImg,
+        descripcion: `Proyecto react skill-up 1 de Alkemy.`,
+        tecnologias: `React.js, TailwindCSS`,
+        previewLink: `https://arflix-alkemy.vercel.app/` ,
+        githubLink: `https://github.com/FranciscoPardoo/arflix-alkemy`,
     },
     {
         titulo: `Freres`,
