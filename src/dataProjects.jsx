@@ -1,8 +1,16 @@
-import freresImg from "./assets/cap-freres.png";
+import coronadosImg from "./assets/cap-coronados.png";
 import mappleImg from "./assets/cap-mapple.png";
 import arflixImg from './assets/cap-arflix.png';
 
 export const projectDetails = [
+    {
+        titulo: `Coronados de Gloria`,
+        imagen: coronadosImg,
+        descripcion: `Proyecto sobre turismo argentino`,
+        tecnologias: `React.js, TailwindCSS`,
+        previewLink: `https://coronadosdegloria.vercel.app/`,
+        githubLink: `https://github.com/FranciscoPardoo/arg-coronados-de-gloria`,
+    },
     {
         titulo: `ARflix`,
         imagen: arflixImg,
@@ -10,14 +18,6 @@ export const projectDetails = [
         tecnologias: `React.js, TailwindCSS`,
         previewLink: `https://arflix-alkemy.vercel.app/` ,
         githubLink: `https://github.com/FranciscoPardoo/arflix-alkemy`,
-    },
-    {
-        titulo: `Freres`,
-        imagen: freresImg,
-        descripcion: `Proyecto final para JavaScript de Coderhouse.`,
-        tecnologias: `HTML + CSS + Bootstrap + JavaScript`,
-        previewLink: `https://proyecto-js-pardo.vercel.app/`,
-        githubLink: `https://github.com/FranciscoPardoo/proyecto-js-pardo`,
     },
     {
         titulo: `Mapple`,
