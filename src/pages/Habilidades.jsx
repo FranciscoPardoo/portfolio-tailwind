@@ -1,13 +1,14 @@
 import SkillsCards from "../components/SkillsCards";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3Alt, faBootstrap, faSass, faJs, faReact, faFigma, faGithub, faGitAlt } from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faCss3Alt, faBootstrap, faSass, faJs, faReact, faFigma, faGithub, faGitAlt, faJava } from '@fortawesome/free-brands-svg-icons';
+import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 
 function Habilidades(){
     
     return(
         <section className="container mx-auto max-width pt-20 md:pb-20 pb-10" id="habilidades">
             <h2 className="text-neutral-900 text-center text-2xl  dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">Habilidades</h2>
-            <div className="grid justify-center justify-items-center m-18 md:grid-cols-5 sm:grid-cols-3 xs:grid-cols-2">
+            <div className="grid justify-center justify-items-center m-18 md:grid-cols-6 sm:grid-cols-3 xs:grid-cols-2">
                 <SkillsCards habilidad="HTML" icono={<FontAwesomeIcon icon={faHtml5} fade size="5x" style={{color: "#ff8800",}} />} />
                 <SkillsCards habilidad="CSS" icono={<FontAwesomeIcon icon={faCss3Alt} fade size="5x" style={{color: "#0084ff",}} />}/>
                 <SkillsCards habilidad="Bootstrap" icono={<FontAwesomeIcon icon={faBootstrap} fade size="5x" style={{color: "#8c00ff",}} />} />
@@ -17,6 +18,9 @@ function Habilidades(){
                 <SkillsCards habilidad="Figma" icono={<FontAwesomeIcon icon={faFigma} fade size="5x" style={{color: "#616161",}} />} />
                 <SkillsCards habilidad="GIT" icono={<FontAwesomeIcon icon={faGitAlt} fade size="5x" style={{color: "#ff5900",}} />}/>
                 <SkillsCards habilidad="GitHub" icono={<FontAwesomeIcon icon={faGithub} fade size="5x" style={{color: "#000000",}} />} />
+                <SkillsCards habilidad="Java" icono={<FontAwesomeIcon icon={faJava} fade size="5x" style={{color: "#5382a1",}} />} />
+                <SkillsCards habilidad="mySQL" icono={<FontAwesomeIcon icon={faDatabase} fade size="5x" style={{color: "#00758F",}} />} />
+                <SkillsCards habilidad="Spring Boot" icono={<FontAwesomeIcon icon={faJava} fade size="5x" style={{color: "#6DB33F",}} />} />
             </div>
         </section>
     )
