@@ -2,7 +2,7 @@ import avatar from "../assets/avatar1.png";
 import Button from "../components/Button";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
-import cv from "/cv-franciscopardo.pdf";
+import cv from "/cv_francisco_pardo.pdf";
 import {motion} from "framer-motion"
 
 function Inicio(){
